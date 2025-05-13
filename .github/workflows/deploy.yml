@@ -36,5 +36,5 @@ jobs:
     # Step 6: Deploy to Minikube (Kubernetes)
     - name: Deploy to Minikube
       run: |
-        kubectl apply -f k8s/deployement.yaml
-        kubectl apply -f k8s/service.yaml
+        kubectl apply -f deployement.yaml
+        kubectl apply -f service.yaml
